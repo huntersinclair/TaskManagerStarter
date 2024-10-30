@@ -28,10 +28,13 @@ Frontend:
 - Use Angular Services to interact with the backend.
 - Implement form validation for adding & editing tasks.
 - Include ability to delete a task from list.
-- Include at least 2 data transformations 
+- Include at least 2 data transformations (assume these will be used in more than 1 place in project) 
     - one for truncating Description to 20 chars with elipses at end in the list
     - one for modifying date format when shown in list to Oct 30, 2024 format (but stored in ISO format in DB)
+- Applicant should utilize latest version of Angular 18 and utilize common Angular design patterns and concepts where appropriate.
 * Bonus points to use Material UI angular components for UI 
+* Bonus points for using NgRx or Signals 
+* Bonus points for showing Routing
 
 Backend:
 - Java Spring Boot application with RESTful endpoints for task management.
@@ -39,4 +42,3 @@ Backend:
 - CRUD operations: Create, Read, Update, Delete.
 - Use an in-memory database (like H2) for simplicity.
 * Bonus points for including some type of Auth for API 
-
