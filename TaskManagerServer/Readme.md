@@ -1,5 +1,20 @@
-# TaskManagerStarter
-This project was created as a starter app for Interview Coding Assignment using Java Spring Boot and Angular
+# TaskManagerServer
+
+This project was created as a starter app for Java Spring Boot for Interview Coding Assignment
+
+## Development server
+
+clone the repo locally.
+make sure you have JavaSDK and Maven installed
+navigate to project folder
+
+## install
+
+> mvn clean install
+
+## run
+
+> mvn spring-boot:run
 
 ## Project Overview
 
